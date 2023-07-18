@@ -99,6 +99,7 @@ body {
   color: white;
   background-color: black;
 }
+
 .website-heading {
   font-size: 4.5rem;
   font-weight:300;
@@ -138,6 +139,21 @@ body {
   border-radius: 41px;
   outline: 0 solid red;
 }
+.logo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -6rem;
+}
+
+.logo2 img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
 
 nav {
   display: flex;
