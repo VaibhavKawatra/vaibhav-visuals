@@ -3,32 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: undertown;
-  src: url(UNDERTOWN\ PERSONAL\ USE.ttf);
-}
-@font-face {
-  font-family: break it down;
-  src: url(Break\ It\ Down.ttf);
-}
-@font-face {
-  font-family: lunatic;
-  src: url(Lunatic.ttf);
-
-}
-@font-face {
-  font-family: chaos;
-  src: url(The\ Modern\ Chaos.ttf);
-}
-@font-face {
-  font-family: impact;
-  src: url(Impacto\ Final!.ttf);
-}
-@font-face {
-  font-family: panton;
-  src: url(PantonRustHeavy-GrSh.ttf);
-}
-
 
 .gif-background {
   position: relative;
@@ -38,7 +12,7 @@
 
 .gif-overlay {
   position: absolute;
-  top: 100;
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
@@ -87,7 +61,6 @@
   }
 }
 
-
 body {
   background-image: url(6222603.jpg);
   background-size: cover;
@@ -97,6 +70,10 @@ body {
   color: white;
   background-color: black;
 }
+
+/* Rest of your CSS styles... */
+
+
 
 .website-heading {
   font-size: 4.5rem;
